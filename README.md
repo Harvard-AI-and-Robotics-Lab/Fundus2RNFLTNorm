@@ -1,6 +1,6 @@
 # OCT-Fundus-to-RNFLT
 
-The code for predicting a circumpapillary **retinal nerve fiber layer thickness (RNFLT) map** from an **OCT fundus image**. If you have any questions, please email harvardophai@gmail.com and harvardairobotics@gmail.com.
+The code for the paper entitled [**Deep Learning Prediction of Personalized Peripapillary Retinal Nerve Fiber Layer Thickness Norms from Fundus Images in Glaucoma**](https://pubmed.ncbi.nlm.nih.gov/42245038/). If you have any questions, please email harvardophai@gmail.com and harvardairobotics@gmail.com.
 
 ## Requirements
 Python 3.8  
@@ -70,4 +70,15 @@ python train.py \
 
 ## Acknowledgement and Citation
 
-If you find this repository useful for your research, please consider citing our work.
+If you find this repository useful for your research, please consider citing our [paper](https://pubmed.ncbi.nlm.nih.gov/42245038/):
+
+```bibtex
+@article{yildiz2026rnfltnorm,
+  title={Deep Learning Prediction of Personalized Peripapillary Retinal Nerve Fiber Layer Thickness Norms from Fundus Images in Glaucoma},
+  author={Yildiz, Elif and Zha, Lucy and Zebardast, Nazlee and Shi, Min and Wang, Mengyu},
+  journal={medRxiv},
+  year={2026},
+  doi={10.64898/2026.05.26.26354081},
+  url={https://pubmed.ncbi.nlm.nih.gov/42245038/}
+}
+```
