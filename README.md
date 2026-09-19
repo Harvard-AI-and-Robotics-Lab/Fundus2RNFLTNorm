@@ -40,14 +40,6 @@ plot_2dmap(pred, show_cup=True)
 
 A notebook version of this example is in `inference.ipynb`.
 
-To choose a device, set `CUDA_VISIBLE_DEVICES` before the first import (`''` runs on CPU):
-````
-import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
-
-from octfundus2rnflt import *
-````
-
 #### RNFLT prediction example:
 
 ## Training
