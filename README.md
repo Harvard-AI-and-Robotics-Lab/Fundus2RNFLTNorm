@@ -23,7 +23,7 @@ plt.show()
 ````
 
 ## Pretrained Model
-The model weight "octfundus_to_rnflt_new2.final.h5" is included at `checkpoint/octfundus_to_rnflt_new2.final.h5`.
+The model weight "octfundus_to_rnflt_model.final.h5" is available at https://huggingface.co/datasets/harvardairobotics/Fundus2RNFLTNorm.
 
 ## Use the Model
 ````
@@ -31,7 +31,7 @@ from octfundus2rnflt import *
 
 # load the pretrained model
 octfundus2rnflt = PCModel(img_rows=256, img_cols=256)
-octfundus2rnflt.load('checkpoint/octfundus_to_rnflt_new2.final.h5', train_bn=False, lr=0.00001)
+octfundus2rnflt.load('checkpoint/octfundus_to_rnflt_model.final.h5', train_bn=False, lr=0.00001)
 
 # RNFLT prediction
 pred = octfundus2rnflt.model.predict([img, mask])[0][:,:,0]
