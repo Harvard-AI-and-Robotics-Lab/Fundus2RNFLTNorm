@@ -1,4 +1,4 @@
-# OCT-Fundus-to-RNFLT
+# En Face Fundus-to-RNFLT-Norm
 
 The code for the paper entitled [**Deep Learning Prediction of Personalized Peripapillary Retinal Nerve Fiber Layer Thickness Norms from Fundus Images in Glaucoma**](https://pubmed.ncbi.nlm.nih.gov/42245038/). If you have any questions, please email harvardophai@gmail.com and harvardairobotics@gmail.com.
 
